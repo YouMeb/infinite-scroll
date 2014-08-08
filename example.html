@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Example</title>
+</head>
+<body>
+  <div style="height: 2400px; style: #eee"></div>
+  <script src="build/build.js"></script>
+  <script>
+    var infiniteScroll = require('infinite-scroll');
+
+    var id = infiniteScroll.setup(function (ctx) {
+      console.log(123);
+      ctx.done();
+    });
+  </script>
+</body>
+</html>
